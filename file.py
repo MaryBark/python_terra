@@ -78,7 +78,7 @@ print(index)
 
 
 # f ntgthm aeyrwbz!!!!!
-def Bynary_poisk(arr, num):
+def bynary_poisk(arr, num):
     first = 0
     last = len(array)-1
     index = -1
@@ -93,8 +93,6 @@ def Bynary_poisk(arr, num):
                 first = mid +1
     return index
 
->>> Bynary_poisk([2, 2, 3, 6, 7, 7], num)
-
-
-
-# >>> print(Bynary_poisk([10,20,30,40,50], 20))
+bynary_poisk([2, 2, 3, 6, 7, 7], num)
+print("index")
+print(index)
